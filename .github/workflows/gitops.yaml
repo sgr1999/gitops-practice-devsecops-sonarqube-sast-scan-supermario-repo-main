@@ -8,9 +8,9 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: sonarqube_sast_scan
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
